@@ -1,0 +1,44 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+.container {
+    display: flex;
+    background: black;
+    width: 100vw;
+    height: 80px;
+    justify-content: space-around;
+    
+}
+
+.mainnav {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    align-items: center;
+}
+
+.subnav {
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.maincontent{
+    display: flex;
+    flex-direction: column;
+
+}
+.maincontent img {
+    width: 100vw;
+    height: 80vh;
+    
+}
+
+.child {
+    background: pink ;
+}
+
+
